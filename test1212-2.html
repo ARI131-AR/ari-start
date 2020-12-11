@@ -1,0 +1,57 @@
+<html>
+ <meta charset="utf-8">
+<head>
+  <title>ari-test</title>
+</head>
+<body>
+  <h1>오늘 배운것 정리 2020-12-12</h1>
+    <h2>표만들기</h2>
+<form action="http://localhost/login.php" target="blink" title="새창으로 열립니다">
+    <table border="2">
+      <thead>
+        <tr>
+          <th>이름</th>  <th>나이</th> <th>경력</th> <th>급여</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="text" name="name" value="ooo"></td> <td><input type="text" name="age" value="숫자"></td>
+          <td><input type="text" name="career" value="개월 수" ></td> <td><input type="text" name="money" value="만단위"></td>
+        </tr>
+        <tr>
+            <td>김두두</td> <td>21</td> <td>3개월</td> <td>2000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">총계</td> <td>7000</td>
+          </tr>
+      </tfoot>
+    </table>
+
+    <h1>로그인창 만들기</h1>
+            <p>아이디 <input type="text" name="id" value="아이디를 입력해주세요">    </p>
+            <p>비밀번호 <input type="password" name="pwd" value="비밀번호를 입력해주세요">    </p>
+            <p>주소 <textarea name="address" cols="30" rows="3">주소를 입력해주세요</textarea> </p>
+
+        <h1>선택지 만들기</h1>
+
+      <h2>색상선택(단일)</h2>
+        <select name="color">
+            <option value="red">빨강</option>
+            <option value="bl">파랑</option>
+            <option value="bk">검정</option>
+        </select>
+
+            <h2>사이즈선택(단일)</h2>
+              55 <input type="radio" name="size" value="55">
+              66 <input type="radio" name="size" value="66" checked>
+              77 <input type="radio" name="size" value="77">
+            <h2>디자인(다중)</h2>
+                a <input type="checkbox" name="ds" value="a" checked>
+                b <input type="checkbox" name="ds" value="b" checked>
+                c <input type="checkbox" name="ds" value="c">
+          <p> <input type="submit"></p>
+</form>
+</body>
+</html>
